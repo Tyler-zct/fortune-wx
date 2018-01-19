@@ -1,0 +1,8 @@
+<!-- fortune_telling.wxml -->
+<image class="back-left" src='../../static/icon/bg01.png'></image>
+
+<view class="calculate">
+  <image class="img-left" src='../../static/icon/frame01@3x.png'></image>
+</view>
+
+<image class="background" src='../../static/icon/bg02.png'></image>

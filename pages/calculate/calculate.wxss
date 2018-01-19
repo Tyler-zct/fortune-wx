@@ -1,0 +1,68 @@
+/**index.wxss**/
+
+.calculate navigator {
+  width: 94vw;
+  margin: 3vh 0 0 3vw;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.calculate div {
+  width: 50vw;
+}
+
+.img-left {
+  position: relative;
+  top: 1vw;
+  left: 1vw;
+  width: 8vw;
+  height: 8vw;
+}
+
+.title {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 5vw;
+}
+
+.abstract {
+  font-size: 0.8rem;
+  color: #666;
+  margin-left: 13vw;
+}
+
+.img-right {
+  position: relative;
+  top: 1vw;
+  left: 38vw;
+  width: 8vw;
+  height: 8vw;
+  transform: rotate(90deg);
+}
+
+.acronym {
+  width: 19vw;
+  height: 12vh;
+  float: right;
+  margin: 2.5vh 10vw;
+}
+
+.background {
+  width: 100%;
+  position: absolute;
+  bottom: 0vh;
+}
+
+.back-left{
+  width: 15%;
+  height: 30vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.navigator-hover{
+  color: blue;
+}
+
+

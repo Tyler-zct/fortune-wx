@@ -1,0 +1,17 @@
+/**fortune_telling.wxss**/
+
+.calculate {
+  width: 94vw;
+  margin: 3vh 0 0 3vw;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+
+.img-left {
+  position: relative;
+  top: 1vw;
+  left: 1vw;
+  width: 8vw;
+  height: 8vw;
+}

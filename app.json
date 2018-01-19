@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/calculate/calculate",
+    "pages/fortune/fortune",
+    "pages/mine/mine",
+    "pages/fortune_telling/fortune_telling"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#f6bd60",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/fortune/fortune",
+        "text": "运势",
+        "iconPath": "./static/icon/tabbar_luck01@3x.png",
+        "selectedIconPath": "./static/icon/tabbar_luck02@3x.png"
+      },
+      {
+        "pagePath": "pages/calculate/calculate",
+        "text": "测算",
+        "iconPath": "./static/icon/tabbar_fortune01@3x.png",
+        "selectedIconPath": "./static/icon/tabbar_fortune02@3x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./static/icon/tabbar_mine01@3x.png",
+        "selectedIconPath": "./static/icon/tabbar_mine02@3x.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "downloadFile": 5000
+  },
+  "debug": true
+}

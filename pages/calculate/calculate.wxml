@@ -1,0 +1,60 @@
+<!-- calculate.wxml -->
+<image class="back-left" src='../../static/icon/bg01.png'></image>
+
+<view class="calculate">
+  <navigator url="/pages/fortune_telling/fortune_telling" hover-class="navigator-hover">
+    <div>
+      <image class="img-left" src='../../static/icon/frame01@3x.png'></image>
+      <view class="title">八字算命</view>
+      <view class="abstract">生辰命理格局</view>
+    </div>
+    <div>
+      <image class='acronym' src='../../static/icon/fortune_1@3x.png'></image>
+      <image class='img-right' src='../../static/icon/frame01@3x.png'></image>
+    </div>
+  </navigator>
+</view>
+
+<view class="calculate">
+  <navigator>
+    <div>
+      <image class="img-left" src='../../static/icon/frame01@3x.png'></image>
+      <text class="title">姓名测算\n</text>
+      <text class="abstract">姓名测试命运</text>
+    </div>
+    <div>
+      <image class='acronym' src='../../static/icon/name@3x.png'></image>
+      <image class='img-right' src='../../static/icon/frame01@3x.png'></image>
+    </div>
+  </navigator>
+</view>
+
+<view class="calculate">
+  <navigator>
+    <div>
+      <image class="img-left" src='../../static/icon/frame01@3x.png'></image>
+      <text class="title">八字合婚\n</text>
+      <text class="abstract">八字五行配对</text>
+    </div>
+    <div>
+      <image class='acronym' src='../../static/icon/marriage@3x.png'></image>
+      <image class='img-right' src='../../static/icon/frame01@3x.png'></image>
+    </div>
+  </navigator>
+</view>
+
+<view class="calculate">
+  <navigator>
+    <div>
+      <image class="img-left" src='../../static/icon/frame01@3x.png'></image>
+      <text class="title">周公解梦\n</text>
+      <text class="abstract">梦中吉凶定数</text>
+    </div>
+    <div>
+      <image class='acronym' src='../../static/icon/dream@3x.png'></image>
+      <image class='img-right' src='../../static/icon/frame01@3x.png'></image>
+    </div>
+  </navigator>
+</view>
+
+<image class="background" src='../../static/icon/bg02.png'></image>
